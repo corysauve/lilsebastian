@@ -1,0 +1,15 @@
+#' Parks and Rec Transcript
+#'
+#' A dataset containing the entire transcript of the TV show, Parks and Rec,
+#' organized by season and episode.
+#'
+#' format A data frame with 65878 rows and 4 variables:
+#' \describe{
+#'  \item{season}{show season}
+#'  \item{episode}{season episode}
+#'  \item{character}{character speaking line}
+#'  \item{line}{line spoken by character}
+#' }
+#'
+#' @source \url{https://www.kaggle.com/heheheluke/parks-and-recreation-scripts}
+"parksandrec"

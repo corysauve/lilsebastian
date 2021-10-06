@@ -1,0 +1,19 @@
+Package: lilsebastian
+Title: Transcript for Parks and Rec
+Version: 0.0.0.9000
+Authors@R: person("Cory", "Sauve", email = "coryjsauve@gmail.com",
+                  role = c("aut", "cre"))
+Description: This package contains the entire transcript from Parks and Rec.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Config/testthat/edition: 3
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
