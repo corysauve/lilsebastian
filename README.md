@@ -21,6 +21,23 @@ You can install the development version of lilsebastian from
 devtools::install_github("corysauve/lilsebastian")
 ```
 
+## Basic Usage
+
+lilsebastian contains the entire transcript for *Parks and Recreation*,
+organized by season and episode:
+
+``` r
+library(lilsebastian)
+
+dplyr::glimpse(parksandrec)
+#> Rows: 65,878
+#> Columns: 4
+#> $ season    <dbl> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ~
+#> $ episode   <dbl> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ~
+#> $ character <chr> "Leslie Knope", "Leslie Knope", "Leslie Knope", "Leslie Knop~
+#> $ line      <chr> "Hello.", "Hi.", "My name is Leslie Knope, and I work for th~
+```
+
 ## Contributing
 
 I welcome any contributions or suggestions for improving this package!

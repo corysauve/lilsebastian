@@ -11,6 +11,8 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+library(magrittr)
 ```
 
 # lilsebastian
@@ -28,6 +30,14 @@ You can install the development version of lilsebastian from [GitHub](https://gi
 ``` r
 # install.packages("devtools")
 devtools::install_github("corysauve/lilsebastian")
+```
+## Basic Usage 
+
+lilsebastian contains the entire transcript for *Parks and Recreation*, organized by season and episode:
+```{r}
+library(lilsebastian)
+
+dplyr::glimpse(parksandrec)
 ```
 
 ## Contributing 
