@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 Explore the inner workings of the Pawnee Parks and Recreation
