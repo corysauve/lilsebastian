@@ -5,7 +5,13 @@
 \alias{parksandrec}
 \title{Parks and Rec Transcript}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 65878 rows and 4 columns.
+A data frame with 65878 rows and 4 variables:
+\describe{
+\item{season}{show season}
+\item{episode}{season episode}
+\item{character}{character speaking line}
+\item{line}{line spoken by character}
+}
 }
 \source{
 \url{https://www.kaggle.com/heheheluke/parks-and-recreation-scripts}
@@ -16,14 +22,5 @@ parksandrec
 \description{
 A dataset containing the entire transcript of the TV show, Parks and Rec,
 organized by season and episode.
-}
-\details{
-format A data frame with 65878 rows and 4 variables:
-\describe{
-\item{season}{show season}
-\item{episode}{season episode}
-\item{character}{character speaking line}
-\item{line}{line spoken by character}
-}
 }
 \keyword{datasets}
