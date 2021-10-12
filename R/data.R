@@ -3,7 +3,7 @@
 #' A dataset containing the entire transcript of the TV show, Parks and Rec,
 #' organized by season and episode.
 #'
-#' format A data frame with 65878 rows and 4 variables:
+#' @format A data frame with 65878 rows and 4 variables:
 #' \describe{
 #'  \item{season}{show season}
 #'  \item{episode}{season episode}
